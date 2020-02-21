@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <FacebookLogin
-    appId="806019639896279"
+    appId="372043986858165"
     autoLoad={true}
     fields="name,email,picture"
     onClick={console.log('clicou')}
