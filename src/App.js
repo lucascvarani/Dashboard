@@ -12,7 +12,7 @@ function App() {
       <FacebookLogin
     appId="372043986858165"
     autoLoad={true}
-    fields="name,email,picture"
+    fields="name,email,picture,ads_management,ads_read,manage_pages"
     onClick={console.log('clicou')}
     callback={responseFacebook} />
     </div>
